@@ -1,4 +1,4 @@
-import { fetch } from './index';
+import fetch from './index';
 import * as request from '../../2-async/promises/index';
 
 test('spyOn fetchData函数并异步返回value的值', () => {

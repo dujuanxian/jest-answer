@@ -1,5 +1,5 @@
 import { fetchData } from '../../2-async/promises/index';
 
-export function fetch() {
+export default function fetch() {
   return fetchData('data');
 }
