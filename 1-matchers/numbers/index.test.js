@@ -13,7 +13,7 @@ test('result比3小', () => {
 
   // <--start
   // TODO: 给出正确的assertion
-  expect(result);
+  expect(result).toBeLessThan(value);
   // --end->
 });
 
@@ -23,6 +23,6 @@ test('result等于3.0', () => {
 
   // <--start
   // TODO: 给出正确的assertion
-  expect(result);
+  expect(result).toBeCloseTo(value);
   // --end->
 });

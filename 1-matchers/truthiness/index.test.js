@@ -11,7 +11,7 @@ test('result被定义', () => {
 
   // <--start
   // TODO: 给出正确的assertion
-  expect(result);
+  expect(result).toBeDefined();
   // --end->
 });
 
@@ -20,6 +20,6 @@ test('匹配result为真', () => {
 
   // <--start
   // TODO: 给出正确的assertion
-  expect(result);
+  expect(result).toBeTruthy();
   // --end->
 });

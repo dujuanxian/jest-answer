@@ -6,6 +6,6 @@ test('数组包含Banana', () => {
 
   // <--start
   // TODO: 给出正确的assertion
-  expect(result);
+  expect(result).toContain(value);
   // --end->
 });

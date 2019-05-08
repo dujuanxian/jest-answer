@@ -13,7 +13,7 @@ test('sum的结果为3', () => {
 
   // <--start
   // TODO: 给出正确的assertion
-  expect(result);
+  expect(result).toBe(value);
   // --end->
 });
 
@@ -23,7 +23,7 @@ test('sum的结果不为3', () => {
 
   // <--start
   // TODO: 给出正确的assertion
-  expect(result);
+  expect(result).not.toBe(value);
   // --end->
 });
 
@@ -35,6 +35,6 @@ test('person对象的值', () => {
 
   // <--start
   // TODO: 给出正确的assertion
-  expect(result);
+  expect(result).toEqual(value);
   // --end->
 });
