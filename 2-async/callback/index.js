@@ -1,3 +1,4 @@
+/* eslint-disable prefer-promise-reject-errors */
 export function fetchData(callback) {
   setTimeout(() => {
     callback('Value');
