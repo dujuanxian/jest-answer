@@ -1,4 +1,4 @@
-import { array } from './index';
+import array from './index';
 
 test('数组包含Banana', () => {
   const result = array('Apple', 'Banana');

@@ -1,3 +1,3 @@
-export function array(...values) {
+export default function array(...values) {
   return new Array(...values);
 }
