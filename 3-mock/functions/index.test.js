@@ -1,5 +1,5 @@
-import { sum } from '../../1-matchers/basic/index';
-import { fetchData } from '../../2-async/promises/index';
+import { sum } from '../../1-matchers/basic/index'; // eslint-disable-line no-unused-vars
+import { fetchData } from '../../2-async/promises/index'; // eslint-disable-line no-unused-vars
 
 test('demo - mock sum的实现函数返回3', () => {
   const mock = jest.fn(() => 3);
