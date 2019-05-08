@@ -6,7 +6,7 @@ test('spyOn fetchData函数并异步返回value的值', () => {
 
   // <--start
   // TODO: spyOn request中的fetchData函数
-
+  jest.spyOn(request, 'fetchData').mockResolvedValue(value);
   // --end->
 
   expect(fetch()).resolves.toBe(value);

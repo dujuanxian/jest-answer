@@ -14,7 +14,7 @@ test('mock sum的返回值为3', () => {
 
   // <--start
   // TODO: 改变mock返回值
-
+  mock.mockReturnValue(3);
   // --end->
 
   expect(mock('sum')).toBe(value);
@@ -26,7 +26,7 @@ test('mock fetchData异步调用返回3', () => {
 
   // <--start
   // TODO: 改变mock返回值
-
+  mock.mockResolvedValue(3);
   // --end->
 
   expect(mock('fetchData')).resolves.toBe(value);
