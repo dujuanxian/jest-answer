@@ -13,7 +13,7 @@ test('异步调用失败回调函数返回的结果', done => {
     // <--start
     // TODO: 测试error的值，给出正确的assertion
 
-    expect(error);
+    expect(error).toBe('Error');
     // --end->
     done();
   }

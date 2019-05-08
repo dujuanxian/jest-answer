@@ -18,7 +18,7 @@ describe('async/await测试', () => {
 
     // <--start
     // TODO: 测试fetchDataPromise解决后返回的结果为value的值，给出正确的assertion
-
+    await expect(fetchDataPromise).resolves.toBe(value);
     // --end->
   });
 
@@ -29,7 +29,7 @@ describe('async/await测试', () => {
 
     // <--start
     // TODO: 测试fetchDataPromise抛出的错误信息为value的值，给出正确的assertion
-
+    await expect(fetchDataPromise).rejects.toBe(value);
     // --end->
   });
 });
